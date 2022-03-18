@@ -1,9 +1,22 @@
+body {
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #587291;
   border-bottom: 10px solid #000;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
+  align-self: center;
+  text-shadow: 5px 5px 0px #000;
 }
 
 section,
@@ -22,23 +35,24 @@ a {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
-  font-weight: 500;
   margin-right: 30px;
 }
 
 #button {
+  display: inline-block;
   background-color: #2f97c1;
   padding: 18px 20px;
   box-sizing: border-box;
   box-shadow: 5px 5px 0px #000;
   margin-right: 0px;
+  transition: transform 0.1s linear;
 }
 
 #button:hover {
   background-color: #fff;
   color: #2f97c1;
   transition: 0.4s;
+  transform: scale(1.08);
 }
 
 .nav::before {
