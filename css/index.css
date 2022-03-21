@@ -69,7 +69,6 @@ li a {
 main {
   display: flex;
   flex-direction: column;
-  font-family: 'Press Start 2P', cursive;
   width: 100%;
   height: 797px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -86,12 +85,6 @@ main {
   height: 184px;
   background-color: #3a4042;
   box-shadow: 5px 5px 0px #000;
-}
-
-.card-main h1 {
-  font-size: 40px;
-  color: #2f97c1;
-  text-shadow: 5px 5px 0px #000;
 }
 
 .card-main p {
