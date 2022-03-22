@@ -87,16 +87,6 @@ main {
   box-shadow: 5px 5px 0px #000;
 }
 
-.card-main p {
-  font-size: 30px;
-}
-
-h1,
-p {
-  padding: 10px 20px;
-  font-size: 1.5rem;
-}
-
 .mini-card {
   font-family: 'Fira Code', Arial, Helvetica, sans-serif;
   width: 627px;

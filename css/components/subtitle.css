@@ -1,6 +1,7 @@
-.title {
+.subtitle {
   font-family: 'Press Start 2P', cursive;
-  font-size: 40px;
-  color: #2f97c1;
+  font-size: 30px;
+  color: #fff;
   text-shadow: 4px 4px 0px #000;
+  margin-top: 30px;
 }
