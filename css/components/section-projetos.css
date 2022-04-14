@@ -1,0 +1,44 @@
+section.projetos {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 530px;
+  background-color: #000;
+  border-bottom: 10px solid #2f97c1;
+}
+
+.projetos-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+}
+
+figure.card-project .logo {
+  width: 210px;
+}
+
+.card-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 280px;
+  box-shadow: #fff 10px 10px 0;
+}
+
+.card-project:nth-child(1) {
+  background-color: #7c5e99;
+}
+.card-project:nth-child(2) {
+  background-color: #4c5b84;
+}
+
+.projetos-wrapper img {
+  width: 280px;
+}
+
+.projetos .main-title.-second {
+  margin-bottom: 50px;
+}
