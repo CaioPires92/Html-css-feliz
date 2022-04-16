@@ -5,8 +5,7 @@ section.projetos {
   justify-content: center;
   width: 100%;
   height: 530px;
-  background-color: #000;
-  border-bottom: 10px solid #2f97c1;
+  border-bottom: 10px solid;
 }
 
 .projetos-wrapper {
