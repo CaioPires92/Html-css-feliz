@@ -8,11 +8,7 @@ section.projetos {
   border-bottom: 10px solid;
 }
 
-.projetos-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 1150px;
-}
+
 
 figure.card-project .logo {
   width: 210px;
